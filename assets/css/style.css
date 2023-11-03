@@ -197,8 +197,13 @@ body {
 
 .section { padding-block: var(--section-padding); }
 
+.section {
+  margin-block-end: 9px;
+  
+}
+
 .section-subtitle {
-  color: var(--orange-soda);
+  color: white;
   font-family: var(--ff-barlow);
   font-size: var(--fs-4);
   text-align: center;
@@ -232,11 +237,11 @@ body {
   padding-block: 15px;
   width: 100%;
   background-color: black;
-  height: 65px;
+  height: 110px;
   box-shadow: var(--shadow);
   overflow: hidden;
   transition: 0.25s var(--cubic-out);
-  z-index: 4;
+  z-index: 2;
 }
 
 .header.nav-active {
@@ -254,7 +259,7 @@ body {
 .logo {
   color: var(--white);
   font-family: var(--ff-poppins);
-  font-size: 2.4rem;
+  font-size: 1.9rem;
 }
 .piclogo {
   border-radius: 50px 50px 50px 50px;
@@ -469,7 +474,7 @@ body {
 .skills-title,
 .skills-data {
   color: var(--white);
-  font-size: var(--fs-5);
+  font-size: 17px;
   font-family: var(--ff-barlow);
   font-weight: var(--fw-600);
 }
@@ -930,7 +935,7 @@ color: aliceblue; }
     bottom: -60px;
     left: -60px;
     width: 120px;
-    animation: rotate360 15s linear infinite reverse;
+   
   }
 
   @keyframes rotate360 {
